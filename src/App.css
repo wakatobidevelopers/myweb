@@ -63,10 +63,14 @@ h1{
 .menu button{
   -webkit-clip-path: polygon(18% 0, 81% 0, 100% 100%, 0% 100%);
   clip-path: polygon(18% 0, 81% 0, 100% 100%, 0% 100%);
+  font-family: 'auto-techno';
+}
+
+.arrow{
+  transform: rotate(180deg);
 }
 
 .arrow svg {
-  transform: rotate(180deg);
   animation: animate 2s infinite;
 }
 
@@ -81,12 +85,13 @@ h1{
 @keyframes animate {
   0% {
       opacity: 0;
+      transform: rotate(deg) translate(-20px, -20px);
   }
   50% {
       opacity: 1;
   }
   100% {
       opacity: 0;
-      
+      transform: rotate(deg) translate(20px, 20px);
   }
 }
