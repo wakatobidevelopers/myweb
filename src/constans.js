@@ -127,7 +127,7 @@ export const sections = [
          src: darthvader,
          width: '500px'
       },
-      flexItem : true
+      flexItem : false
    },
    {
       Components: 'About',
