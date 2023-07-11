@@ -1,0 +1,89 @@
+@font-face{
+  font-family: "auto-techno";
+  src: local("auto-techno.ttf"),
+  url("./assets/fonts/auto-techno.ttf") format("truetype");
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+
+ul li a{
+  display: block;
+  font-family: 'auto-techno';
+  color: white;
+  padding: 10px;
+  width: 220px;
+}
+
+ul li a::before{
+  content: url(./assets/icons/border1.svg);
+  display: block;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -12px;
+  width: 100px;
+  height: 100px;
+}
+
+ul li a.active::before{
+  display: none;
+}
+
+ul li a.active{
+  color: black;
+  background-color: white;
+  -webkit-clip-path: polygon(8% 0, 93% 0, 100% 0, 100% 72%, 91% 100%, 0 100%, 0 77%, 0 25%);
+  clip-path: polygon(8% 0, 93% 0, 100% 0, 100% 72%, 91% 100%, 0 100%, 0 77%, 0 25%);
+}
+
+ul li a:active{
+  display: none;
+}
+
+h1{
+  font-family: 'auto-techno';
+}
+
+.tombol{
+  margin-top: -1000px;
+}
+
+.menu button{
+  -webkit-clip-path: polygon(18% 0, 81% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(18% 0, 81% 0, 100% 100%, 0% 100%);
+}
+
+.arrow svg {
+  transform: rotate(180deg);
+  animation: animate 2s infinite;
+}
+
+.arrow svg:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow svg:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      
+  }
+}
