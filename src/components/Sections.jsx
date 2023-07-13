@@ -6,10 +6,8 @@ import ProjectSlider from "./ProjectsSlider";
 import Contacts from "./Contacts";
 import Skills from "./Skills";
 
-
-
 const Sections = ({ name, title, desc, flexItem = true, btn = true, btnText, btnLink, btnCLick, btnSubmit, socialMedia, projects, contacts, imgSrc, imgWidth }) => {
-   return <div className="">
+   return <div className="bg-black">
       <div style={ flexItem ? {display:"flex"} : {} }>
          <div className="flexCol">
             <Title text={title}/>

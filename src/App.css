@@ -48,12 +48,12 @@ ul li a.active{
   clip-path: polygon(8% 0, 93% 0, 100% 0, 100% 72%, 91% 100%, 0 100%, 0 77%, 0 25%);
 }
 
-ul li a:active{
-  display: none;
-}
-
 h1{
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(312deg, rgba(255,100,0,1) 0%, rgba(0,25,255,1) 55%);
   font-family: 'auto-techno';
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .tombol{
@@ -70,7 +70,7 @@ h1{
   transform: rotate(180deg);
 }
 
-.arrow svg {
+.arrow svg{
   animation: animate 2s infinite;
 }
 
