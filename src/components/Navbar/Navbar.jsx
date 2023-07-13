@@ -12,15 +12,15 @@ const Navbar = (props) => {
       topArrow.push(<TopArrow key = {i}/>)
    }
 
-   return <>
+   return <div className="">
       <NavLinks Show={menu} liOnClick={() => dispatch({type: 'CLOSE_MENU'})}/>
-      <div className="menu absolute flex-col flex w-full justify-center bottom-0 bg-blue-80 items-center gap-4">
+      <div className="menu z-50 absolute flex-col flex w-full justify-center bottom-0 bg-blue-80 items-center gap-4">
          <div className={`arrow ${menu ? 'hidden' : 'flex'} flex-col h-20`}>
             {topArrow}
          </div>
          <button className="bg-white w-40 h-12" onClick={() => dispatch({ type: 'CLOSE_MENU' })}>{menu ? <span>Close</span> : <span>Menu</span>}</button>
       </div>
-   </>
+   </div>
 }
 
 export default Navbar;
