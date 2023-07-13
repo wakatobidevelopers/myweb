@@ -7,7 +7,7 @@ import Contacts from "./Contacts";
 import Skills from "./Skills";
 
 const Sections = ({ name, text1, text2,desc, flexItem = true, btn = true, btnText, btnLink, btnCLick, btnSubmit, socialMedia, projects, contacts, imgSrc, imgWidth }) => {
-   return <div className="bg-black">
+   return <div className="">
       <div style={ flexItem ? {display:"flex"} : {} }>
          <div className="flexCol">
             <Title text={text1} text2={text2}/>
