@@ -5,7 +5,7 @@ import video1 from "../assets/video1.mp4"
 import ReactSwipe from "react-swipe";
 
 const TagName = ({ name }) => {
-   return <div>
+   return <div className="main">
       <video src={video1} autoPlay loop muted/>
       {sections.filter((items) => items.Components === name)
          .map((items, index) => <Sections key={index}
