@@ -119,7 +119,6 @@ export const sections = [
          text1: 'LA ODE',
          text2: 'MIMSHAD'
       },
-      description: "I'm a junior frontend developer who is passionate about creating websites.",
       button: {
          value: true,
          btnText: 'MORE ABOUT ME',
@@ -147,7 +146,7 @@ export const sections = [
          src: hacker,
          width: '500px'
       },
-      flexItem : true
+      flexItem : false
    },
    {
       Components: 'Skills',

@@ -6,7 +6,7 @@ import ReactSwipe from "react-swipe";
 
 const TagName = ({ name }) => {
    return <div className="main">
-      <video src={video} autoPlay loop muted/>
+      <video className="absolute w-full h-full object-cover z-[-999]" src={video} autoPlay loop muted/>
       {sections.filter((items) => items.Components === name)
          .map((items, index) => <Sections key={index}
          name={items.Components}
