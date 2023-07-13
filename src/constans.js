@@ -115,7 +115,10 @@ export const skills = [
 export const sections = [
    {
       Components: 'Home',
-      title: 'LA ODE MIMSHAD',
+      title: {
+         text1: 'LA ODE',
+         text2: 'MIMSHAD'
+      },
       description: "I'm a junior frontend developer who is passionate about creating websites.",
       button: {
          value: true,
@@ -131,7 +134,9 @@ export const sections = [
    },
    {
       Components: 'About',
-      title: 'WHO AM I ?',
+      title: {
+         text1: 'WHO AM I'
+      },
       description: "Hi, I'm La Ode Mimshad! I'm a passionate junior frontend developer with a strong desire to learn and grow in web development. I have experience and education in frontend development, which has helped me develop an eye for design and creating clean, user-friendly interfaces. I'm skilled in HTML, CSS, JavaScript, as well as frameworks like React and Vue.js. My goal is to deliver high-quality code and solutions to every project I work on. I'm always eager to learn from my peers and mentors to improve my skills. Let's collaborate and create amazing web experiences together!",
       button: {
          value: true,
@@ -146,7 +151,9 @@ export const sections = [
    },
    {
       Components: 'Skills',
-      title: 'SKILLS',
+      title: {
+         text1: 'SKILLS'
+      },
       description: "I'm proficient in HTML, CSS, and JavaScript. I'm familiar with various JavaScript frameworks such as React and Angular JS. I have experience working with Bootstrap and Materialize CSS for faster development and responsive web design. I'm constantly working on improving my coding skills and keeping up with the latest web technologies.",
       button: {
          value: false
@@ -155,12 +162,16 @@ export const sections = [
    },
    {
       Components: 'Hobbies',
-      title: 'HOBBIES',
+      title: {
+         text1: 'HOBBIES'
+      },
       description: "When I'm not coding, I love spending time in the great outdoors! You can find me hiking or cycling with my friends, or perhaps trying out different cuisines at local restaurants."
    },
    {
       Components: 'Projects',
-      title: 'PROJECTS',
+      title: {
+         text1: 'RPOJECTS'
+      },
       button: {
          value: false,
          next: function (){
@@ -176,7 +187,9 @@ export const sections = [
    },
    {
       Components: 'Contacts',
-      title: 'CONTACTS',
+      title: {
+         text1: 'CONTACTS'
+      },
       desc: "Interested in working together? Let's connect! You can reach out to me via email, phone, or by filling out the contact form below. I look forward to hearing from you!",
       button: {
          value: false

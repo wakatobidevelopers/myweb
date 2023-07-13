@@ -8,7 +8,8 @@ const TagName = ({ name }) => {
       {sections.filter((items) => items.Components === name)
          .map((items, index) => <Sections key={index}
          name={items.Components}
-         title={items.title}
+            text1={items.title.text1}
+            text2={items.title?.text2}
          btnText={items.button?.btnText}
          btn={items.button?.value}
          desc={items.description}

@@ -49,12 +49,8 @@ ul li a.active{
 }
 
 h1{
-  font-size: 2.5rem;
-  background: -webkit-linear-gradient(312deg, rgba(255,100,0,1) 0%, rgba(0,25,255,1) 55%);
   font-family: 'auto-techno';
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+} 
 
 .tombol{
   margin-top: -1000px;
