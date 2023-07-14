@@ -119,6 +119,7 @@ export const sections = [
          text1: 'LA ODE',
          text2: 'MIMSHAD'
       },
+      description: "Hi, I'm La Ode Mimshad! I'm a passionate junior frontend developer with a strong desire to learn and grow in web development.",
       button: {
          value: true,
          btnText: 'MORE ABOUT ME',
