@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'open-sans': ['Montserrat', 'sans-serif']
+        'open-sans': ['Open Sans', 'sans-serif']
+      },
+      fontWeight: {
+        'normal': '400'
       }
     },
   },
